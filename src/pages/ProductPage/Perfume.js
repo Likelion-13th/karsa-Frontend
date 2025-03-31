@@ -1,12 +1,12 @@
 import React from 'react';
 
-const Home = () => {
+const Perfume = () => {
     return(
         <div>
-         <h1>12345</h1>
-         <p>6789</p>
+         <h1>향수</h1>
+         <p>멋쟁이 사자처럼 13기</p>
         </div>
-    )
-}
+    );
+};
 
-export default Home;
+export default Perfume;
