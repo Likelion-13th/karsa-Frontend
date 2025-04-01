@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "KaiselDecol-Regular";
+    src: url("../../public/font/KaiseiDecol-Regular.ttf") format("truetype");
+}
+
+.header-mypage{
+    background-color: #1492f1;
+    padding: 40px;
+}
+
+.header-default {
+    background-color: #f08080; /* 연한 빨강 */
+    color: white;
+    padding: 10px;
+}
+
+.Head-contain{
+    background-color: rgba(255,255,255,0.5);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+ 
+
+}
+
+.LIKELION a{
+    font-size:30px;
+    color: #FFFFFF;
+    font-family: 'KaiseiDecol-Regular';
+    text-decoration: none;
+}
+
+
+.menu {
+    display:flex;
+    gap:16px;
+    
+}
+
+.menu a{
+    font-size:30px;
+    color: #FFFFFF;
+    font-family: 'KaiseiDecol-Regular';
+    text-decoration: none;
+}
