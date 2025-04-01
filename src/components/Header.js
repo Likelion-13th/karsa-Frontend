@@ -6,9 +6,8 @@ import "../styles/Header.css";
 const Header = () => {
     const location = useLocation();
     const currentPage = location.pathname;
-    const isMypage = currentPage === "/mypage";
     return(
-        <header className={isMypage ? "header-mypage":"Head-contain"}>
+        <header>
         <div className="Head-contain">
             <div className="LIKELION">
                 <Link to="/" className={currentPage === "/" ? "active" : ""}>
@@ -37,4 +36,4 @@ const Header = () => {
 };
 
 
-export default Header;
+export default Header

@@ -3,16 +3,7 @@
     src: url("../../public/font/KaiseiDecol-Regular.ttf") format("truetype");
 }
 
-.header-mypage{
-    background-color: #1492f1;
-    padding: 40px;
-}
 
-.header-default {
-    background-color: #f08080; /* 연한 빨강 */
-    color: white;
-    padding: 10px;
-}
 
 .Head-contain{
     background-color: rgba(255,255,255,0.5);
@@ -31,6 +22,11 @@
     text-decoration: none;
 }
 
+.LIKELION a.active {
+    color: black; /* 현재 페이지일 때 글자 색 변경 */
+    font-weight: bold;
+  }
+
 
 .menu {
     display:flex;
@@ -44,3 +40,8 @@
     font-family: 'KaiseiDecol-Regular';
     text-decoration: none;
 }
+
+.menu a.active {
+    color: black; /* 현재 페이지일 때 글자 색 변경 */
+    font-weight: bold;
+  }
