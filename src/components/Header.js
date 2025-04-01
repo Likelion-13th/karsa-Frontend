@@ -8,7 +8,7 @@ const Header = () => {
     const currentPage = location.pathname;
     return(
         <header>
-        <div className="Head-contain">
+        <div className={currentPage === "/mypage" ? "Head-contain-mypage":"Head-contain"}>
             <div className="LIKELION">
                 <Link to="/" className={currentPage === "/" ? "active" : ""}>
                     LIKELION

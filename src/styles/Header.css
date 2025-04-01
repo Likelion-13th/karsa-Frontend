@@ -3,6 +3,13 @@
     src: url("../../public/font/KaiseiDecol-Regular.ttf") format("truetype");
 }
 
+.Head-contain-mypage{
+    background-color: #E7EFF5;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
 
 
 .Head-contain{
