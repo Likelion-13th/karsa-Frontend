@@ -9,13 +9,14 @@ import Mypage from './pages/Mypage/Mypage';
 import Diffuser from './pages/ProductPage/Diffuser';
 import Perfume from './pages/ProductPage/Perfume';
 import New from './pages/ProductPage/New';
-
+import ToolBar from "./components/ToolBar";
 
 
 function App() {
   return (
     <Router>
       <Header />
+      <ToolBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/mypage" element={<Mypage />} />

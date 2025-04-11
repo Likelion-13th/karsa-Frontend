@@ -64,3 +64,57 @@
 .banner-container{
     width:100%;
 }
+
+.Info-container{
+    display: flex;
+    padding: 30px;
+}
+
+.left-box{
+    display: flex;
+    width: 48%;
+    padding: 30px;
+    position: relative;  
+}
+
+.image-area{
+    width: 100%;            
+}
+
+.text{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    writing-mode: vertical-rl;
+    font-size: 80px;
+    padding: 20px;
+    font-family: 'KaiseiDecol-Regular';
+    
+  }
+
+.right-box {
+    width: 45%;
+    padding: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.text2{
+    font-size: 55px;
+    font-family: "NanumMyeongjo";
+    width: 100%;
+    
+   
+}
+
+
+  .text3{
+    font-family: "NanumMyeongjo";
+    font-size: 18px;
+    width: 100%; 
+    margin-top: 50px;
+  }
+

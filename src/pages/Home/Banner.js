@@ -15,6 +15,8 @@ const Banner = () =>{
         autoplay: true,
         autoplaySpeed: 3000,
         arrows: true,
+        prevArrow: <CustomArrow direction="prev" />,
+        nextArrow: <CustomArrow direction="next" />, 
     };
 
     const images=[
@@ -38,6 +40,35 @@ const Banner = () =>{
         </div>
     );
 
+};
+
+const CustomArrow=({onClick, direction}) => {
+    const isPrev = direction === "prev";
+    const arrowStyle = {
+        width: "fit-content",
+        height: "fit-content",
+        position: "absolute",
+        top: "50%",
+        transform: isPrev ? "translateY(-50%)" : "translateY(-50%) rotate(180deg)",
+        zIndex: 1,
+        [isPrev ? "left" : "right"]: "25px",
+    };
+
+    return(
+        <button
+        type="button"
+        data-role="none"
+        className={`slick-arrow slick-${direction}`}
+        onClick={onClick}
+        style={arrowStyle}
+        >
+            <img
+              src={`${process.env.PUBLIC_URL}/icon/icon_banner_arrow.svg`}
+              alt={isPrev ? "Previous" : "Next"}
+              style={{width: "144px", height: "144px"}}
+              />
+        </button>
+    );
 };
 
 export default Banner;
