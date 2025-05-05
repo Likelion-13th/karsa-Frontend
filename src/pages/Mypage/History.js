@@ -23,7 +23,23 @@ const Histrory = () => {
                     <tbody>
                         <tr>
                             <td>2025-01-01</td>
-                            <td>엑스 퍼퓸</td>
+                            <td>
+                                <div className="history-picture-container">
+                                    <img
+                                        src={`${process.env.PUBLIC_URL}/img/diffuser_1.png`}
+                                        alt="diffuser_1.png"
+                                        className="history-picture"
+                                    ></img>
+                                    <div className="history-text">
+                                        <div className="history-toptext">
+                                            엑스 베터버 오 드 퍼퓸
+                                        </div>
+                                        <div className="history-bottomtext">
+                                            줄리엇 레즈 어 건
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
                             <td>1</td>
                             <td>135,000원</td>
                             <td>배송중</td>
@@ -35,6 +51,7 @@ const Histrory = () => {
                                         >취소</div>
                                 </div>
                             </td>
+                            
                         </tr>
                     </tbody>
                 </table>

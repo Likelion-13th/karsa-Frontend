@@ -104,7 +104,7 @@
 .address-input-post, .address-input-base, .address-input-detail{
     width:100%;
     height: 40px;
-    border: 20x solid #9698A4;
+    border: 2px solid #9698A4;
     border-radius: 5px;
 }
 
@@ -170,3 +170,95 @@
     color:#FFFFFF;
     cursor:pointer;
 }
+
+.history-picture-container{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+
+}
+
+.history-picture{
+    border-radius: 10px;
+    width:40px;
+    height: 40px;
+
+    
+}
+
+.history-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.history-toptext{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.history-bottomtext{
+    color: #898989;
+
+}
+/* 빨간 박스 */
+.container-red {
+   
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* 수직 정렬로 변경 */
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* 상단 노란 박스 (제목 영역) */
+  .box-yellow.top {
+    
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  
+  /* 하단 노란 박스 (내용 영역) */
+  .box-yellow.bottom {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 60px 0;
+    border-top: 1px solid #9698A4;
+    border-bottom: 1px solid #9698A4;
+    
+  }
+  
+  /* 초록 박스 */
+  .box-green {
+    border-left: 1px solid #9698A4;
+    height: 80px;
+    width: 25%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-green:first-child{
+    border:none;
+  }
+  
+  /* 파란 박스 */
+  .box-blue {
+    
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 5px 0;
+    padding: 5px 0;
+  }
+  
