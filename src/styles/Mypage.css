@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: "NanumMyeongjo";
+    src: url("../../public/font/NanumMyeongjo-Regular.ttf") format("truetype");
+}
 
 
 .page-container{
@@ -202,19 +205,19 @@
     color: #898989;
 
 }
-/* 빨간 박스 */
-.container-red {
+
+.status-container {
    
     width: 100%;
     display: flex;
-    flex-direction: column; /* 수직 정렬로 변경 */
+    flex-direction: column; 
     gap: 20px;
     padding: 20px;
     box-sizing: border-box;
   }
   
-  /* 상단 노란 박스 (제목 영역) */
-  .box-yellow.top {
+
+  .stauts-orderbox {
     
     height: 60px;
     display: flex;
@@ -224,8 +227,8 @@
     font-weight: 400;
   }
   
-  /* 하단 노란 박스 (내용 영역) */
-  .box-yellow.bottom {
+ 
+  .status-bottombox {
     
     display: flex;
     justify-content: space-between;
@@ -236,8 +239,8 @@
     
   }
   
-  /* 초록 박스 */
-  .box-green {
+ 
+  .status-subbox {
     border-left: 1px solid #9698A4;
     height: 80px;
     width: 25%;
@@ -247,12 +250,12 @@
     align-items: center;
   }
 
-  .box-green:first-child{
+  .status-subbox:first-child{
     border:none;
   }
   
-  /* 파란 박스 */
-  .box-blue {
+  
+  .status-subsubbox {
     
     width: 100%;
     text-align: center;
