@@ -64,3 +64,109 @@
     font-size: 16px;
     margin-bottom: 10px;
 }
+
+.order-info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.order-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.order-name{
+    font-family: "GmarketSans-Medium";
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.order-brand{
+    font-family: "GmarkerSans-Medium";
+    font-size: 12px;
+    color: #898989;
+    margin-bottom: 8px;
+}
+
+.order-price{
+    font-family: "GmarketSans-Bold";
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.quantity-control{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-button{
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+}
+
+.user-info{
+    font-family: "GmarketSans-Medium";
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.mileage-info{
+    font-family: "GmarkerSans-Medium";
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.mileageToUse-input{
+    width:300px;
+    padding:10px;
+    font-size: 14px;
+    font-family: "GmarkerSans-Medium";
+    border: 1px solid #3a3a3a;
+    border-radius: 4px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 20px 20px 8px 20px;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+}
+
+.total-item{
+    font-size: 14px;
+    font-family: "GmarketSans-Medium";
+    margin-bottom: 12px;
+}
+
+.total-value{
+    text-align: right;
+    font-family: "GmarketSans-Medium";
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.discount{
+    color:#d26156;
+}
+
+.pay-button{
+    width:100%;
+    padding:15px;
+    font-size: 16px;
+    font-family: "GmarketSans-Medium";
+    color:white;
+    background-color: #333;
+    border:none;
+    border-radius: 5px;
+    cursor:pointer;
+}

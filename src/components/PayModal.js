@@ -84,6 +84,40 @@ const PayModal = ({product, onClose}) => {
                     </div>
                 </div>
 
+                <div className="section">
+                    <div className="section-title">마일리지 사용</div>
+                    <div className="mileage-info">
+                        현재 사용 가능한 마일리지: {maxMileage.toLocaleString()} 원
+                    </div>
+                    <input
+                        className="mileageToUse-input"
+                        placeholder="사용하실 마일리지를 입력하세요"
+                        value={mileageToUse}
+                        onChange={handleMileageChange}
+                    />
+                </div>
+
+                <div className="section">
+                    <div className="section-title">총 결제금액</div>
+                    <div className="total">
+                        <div>
+                            <div className="total-item">총 상품금액</div>
+                            <div className="total-item">마일리지 할인</div>
+                            <div className="total-item">배송비</div>
+                        </div>
+                        <div>
+                            <div className="total-value">
+                                {totalPrice.toLocaleString()}원
+                            </div>
+                            <div className="total-value discount">
+                                -{mileageToUse.toLocaleString()}원
+                            </div>
+                            <div className="total-value">무료배송</div>
+                        </div>
+                    </div>
+                </div>
+
+                <button className="pay-button">결제하기</button>
             </div>
         </div>
     );
