@@ -48,18 +48,7 @@ const Diffuser = () => {
         },
     ];
 
-      const [currentPage, setCurrentPage] = useState(1);
-        const itemsPerPage = 5;
-      
-        const totalPages = Math.ceil(products.length / itemsPerPage);
-      
-        const startIndex = (currentPage - 1) * itemsPerPage;
-        const endIndex = startIndex + itemsPerPage;
-        const currentProducts = products.slice(startIndex, endIndex);
-      
-        const handlePageChange = (pageNumber) => {
-          setCurrentPage(pageNumber);
-        };
+
 
       const [selectedProduct, setSelectedProduct] = useState(null);
       const [isModalOpen, setModalOpen] = useState(false);
@@ -87,32 +76,6 @@ const Diffuser = () => {
                     ))}
 
                 </div>
-
-                     <div className="paging">
-          {currentPage > 1 && (
-            <button onClick={() => handlePageChange(currentPage - 1)}>
-              Prev
-            </button>
-          )}
-          
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map(
-            (pageNumber) => (
-              <button
-                key={pageNumber}
-                onClick={() => handlePageChange(pageNumber)}
-                className={currentPage === pageNumber ? 'active' : ''}
-              >
-                {pageNumber}
-              </button>
-            )
-          )}
-          
-          {currentPage < totalPages && (
-            <button onClick={() => handlePageChange(currentPage + 1)}>
-              Next
-            </button>
-          )}
-        </div>
             </div>
                           {isModalOpen && (
         <PayModal product={selectedProduct} onClose={handleCloseModal} />
