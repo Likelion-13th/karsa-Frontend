@@ -48,7 +48,7 @@
     font-weight: 400;
 }
 
-.profile-realNmae{
+.profile-realName{
     font-weight: 600;
 }
 
@@ -212,7 +212,7 @@
     display: flex;
     flex-direction: column; 
     gap: 20px;
-    padding: 20px;
+    padding: 20px 0px;
     box-sizing: border-box;
   }
   
@@ -223,8 +223,8 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 1.8rem;
+    font-weight: 600;
   }
   
  
@@ -253,14 +253,17 @@
   .status-subbox:first-child{
     border:none;
   }
+
+  .status-subsubsubbox{
+    font-size: 1.8rem;
+  }
   
   
   .status-subsubbox {
-    
+    font-weight: 600;
     width: 100%;
     text-align: center;
     font-size: 1.8rem;
-    font-weight: 400;
     margin: 5px 0;
     padding: 5px 0;
   }

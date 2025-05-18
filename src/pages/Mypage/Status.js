@@ -8,7 +8,7 @@ const Status = () => {
             </div>
             <div className="status-bottombox"> {/*노란박스2*/}
                 <div className="status-subbox">
-                    <div className="status-subsubbox">입금완료
+                    <div className="status-subsubsubbox">입금완료
 
                     </div>
                     <div className="status-subsubbox">1
@@ -16,7 +16,7 @@ const Status = () => {
                     </div>
                 </div>
                 <div className="status-subbox">
-                    <div className="status-subsubbox">배송중
+                    <div className="status-subsubsubbox">배송중
 
                     </div>
                     <div className="status-subsubbox">10
@@ -24,7 +24,7 @@ const Status = () => {
                     </div>
                 </div>
                 <div className="status-subbox">
-                    <div className="status-subsubbox">배송완료
+                    <div className="status-subsubsubbox">배송완료
 
                     </div>
                     <div className="status-subsubbox">100
@@ -32,7 +32,7 @@ const Status = () => {
                     </div>
                 </div>
                 <div className="status-subbox">
-                    <div className="status-subsubbox">주문취소
+                    <div className="status-subsubsubbox">주문취소
 
                     </div>
                     <div className="status-subsubbox">0

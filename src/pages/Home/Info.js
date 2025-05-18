@@ -4,12 +4,12 @@ const Info = () => {
     return(
         <div className="Info-container">
             <div className="left-box">
-                <div className="image-area">
+                
                 <img 
                   src={`${process.env.PUBLIC_URL}/img/about_us.jpg`}
                   alt="about_us"
                   ></img>
-                  </div>
+                  
                 <div className="text">ABOUT US</div>                         
             </div>
             <div className="right-box">

@@ -67,22 +67,20 @@
 
 .Info-container{
     display: flex;
+    justify-content: center;
     padding: 30px;
 }
 
 .left-box{
     display: flex;
+    align-items: flex-end;
     width: 48%;
-    padding: 30px;
     position: relative;  
 }
 
-.image-area{
-    width: 100%;            
-}
+
 
 .text{
-    position: absolute;
     bottom: 0;
     right: 0;
     writing-mode: vertical-rl;
