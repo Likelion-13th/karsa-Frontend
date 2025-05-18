@@ -11,7 +11,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_1.png",
+      imagePath: "/img/perfume_1.png",
       isNew: true,
     },
     {
@@ -19,7 +19,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_3.png",
+      imagePath: "/img/perfume_2.png",
       isNew: true,
     },
     {
@@ -27,7 +27,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_15.png",
+      imagePath: "/img/perfume_3.png",
       isNew: true,
     },
     {
@@ -35,7 +35,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_13.png",
+      imagePath: "/img/perfume_4.png",
       isNew: true,
     },
     {
@@ -43,7 +43,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_7.png",
+      imagePath: "/img/perfume_5.png",
       isNew: true,
     },
     {
@@ -51,7 +51,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_4.png",
+      imagePath: "/img/perfume_6.png",
       isNew: true,
     },
      {
@@ -59,7 +59,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_4.png",
+      imagePath: "/img/perfume_7.png",
       isNew: true,
     },
      {
@@ -67,7 +67,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_4.png",
+      imagePath: "/img/perfume_8.png",
       isNew: true,
     },
      {
@@ -75,7 +75,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_4.png",
+      imagePath: "/img/perfume_9.png",
       isNew: true,
     },
      {
@@ -83,7 +83,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_4.png",
+      imagePath: "/img/perfume_10.png",
       isNew: true,
     },
      {
@@ -91,7 +91,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_4.png",
+      imagePath: "/img/perfume_11.png",
       isNew: true,
     },
      {
@@ -99,7 +99,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_4.png",
+      imagePath: "/img/perfume_12.png",
       isNew: true,
     },
      {
@@ -107,7 +107,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_4.png",
+      imagePath: "/img/perfume_13.png",
       isNew: true,
     },
      {
@@ -115,7 +115,7 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_4.png",
+      imagePath: "/img/perfume_4.png",
       isNew: true,
     },
      {
@@ -123,13 +123,13 @@ const Perfume = () => {
       name: "퍼퓸",
       brand: "브랜드",
       price: 30000,
-      imagePath: "/img/diffuser_4.png",
+      imagePath: "/img/perfume_15.png",
       isNew: true,
     },
   ];
 
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 15;
+  const itemsPerPage = 5;
 
   const totalPages = Math.ceil(products.length / itemsPerPage);
 

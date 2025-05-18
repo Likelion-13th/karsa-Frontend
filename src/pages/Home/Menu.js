@@ -6,7 +6,7 @@ const Menu = () => {
     <div className="menu-container">
         <Link to="/perfume" className="menu-section">
             <img
-            src={`${process.env.PUBLIC_URL}/img/main_diffuser.jpg`}
+            src={`${process.env.PUBLIC_URL}/img/banner_diffuser3.png`}
             alt="perfume"
             className="menu-perfume"
             ></img>
@@ -14,7 +14,7 @@ const Menu = () => {
         </Link>
         <Link to="/diffuser" className="menu-section">
             <img
-            src={`${process.env.PUBLIC_URL}/img/main_perfume.jpg`}
+            src={`${process.env.PUBLIC_URL}/img/banner_diffuser2.jpg`}
             alt="perfume"
             className="menu-perfume"
             ></img>
